@@ -28,14 +28,14 @@ export default function Header() {
                             Nosotros
                         </a>
                     </Link>
-                    <Link href="/blog" legacyBehavior>
-                        <a className={router.pathname === '/blog' ? styles.active : ''}>
-                            Blog
-                        </a>
-                    </Link>
                     <Link href="/tienda" legacyBehavior>
                         <a className={router.pathname === '/tienda' ? styles.active : ''}>
                             Tienda
+                        </a>
+                    </Link>
+                    <Link href="/blog" legacyBehavior>
+                        <a className={router.pathname === '/blog' ? styles.active : ''}>
+                            Blog
                         </a>
                     </Link>
                 </nav>
