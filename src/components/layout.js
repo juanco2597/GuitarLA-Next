@@ -11,7 +11,7 @@ export default function Layout({ children, title = '', description = '' }) {
             </Head>
 
             <Header />
-
+            
             {children}
             
             <Footer />
