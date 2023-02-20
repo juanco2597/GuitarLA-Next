@@ -38,6 +38,12 @@ export default function Header() {
                             Blog
                         </a>
                     </Link>
+
+                    <Link href="/carrito" legacyBehavior>
+                        <a className={router.pathname === '/carrito' ? styles.active : ''}>
+                            <Image src="/img/carrito.png" width={30} height={25} alt='Imagen carrito' />
+                        </a>
+                    </Link>
                 </nav>
             </div>
         </header>

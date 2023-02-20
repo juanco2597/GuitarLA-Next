@@ -6,14 +6,17 @@
     max-width: 70rem;
     margin: 0 auto;
 }
+
 .contenido {
     padding: 1rem;
 }
+
 .contenido h3 {
     font-size: 3rem;
     text-transform: uppercase;
     color: var(--primary);
 }
+
 .descripcion {
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -21,12 +24,14 @@
     overflow: hidden;
     font-size: 1.8rem;
 }
+
 .precio {
     color: var(--primary);
     font-size: 4rem;
     margin: 0;
     font-weight: 900;
 }
+
 .enlace {
     margin-top: 2rem;
     display: block;
@@ -41,6 +46,43 @@
     transition-property: background-color;
     transition-duration: 300ms;
 }
+
 .enlace:hover {
     background-color: var(--primary);
+}
+
+.formulario {
+    margin-top: 4rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.formulario label {
+    font-size: 2.2rem;
+}
+
+.formulario select {
+    border: 1px solid var(--black);
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.formulario input[type='submit'] {
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    padding: 1.4rem;
+    background-color: var(--black);
+    color: var(--white);
+    transition-property: background-color;
+    transition-duration: 300ms;
+}
+
+.formulario input[type='submit']:hover {
+    background-color: var(--primary);
+    cursor: pointer;
 }
